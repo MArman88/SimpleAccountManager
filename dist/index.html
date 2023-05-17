@@ -19,30 +19,27 @@
 <body>
     <section id="login-section" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
         <div class="h-screen flex items-center justify-center">
-            <div class="rounded p-8 bg-slate-300 w-3/4 md:w-2/4">
+            <div class="rounded p-8 bg-slate-300 w-3/4 md:w-1/2">
                 <div class="w-full">
                     <h1 class="text-3xl mb-5 font-semibold text-gray-900 dark:text-blue-900">Please Login</h1>
-                    <div class="grid mb-1 grid-cols-8 md:grid-cols-10">
-                        <div class="col-span-6 md:col-span-8 mb-4">
-                            <label for="emailInput"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-900">Email
-                                Address</label>
-                            <input type="email" id="emailInput"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="john@email.com" required>
-                        </div>
-                        <div class="col-span-6 md:col-span-8 mb-4">
-                            <label for="passwordInput"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-900">Password</label>
-                            <input type="password" id="passwordInput"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="xxxxx" required>
-                        </div>
-                        <div class="col-span-6 md:col-span-8 mb-4">
-                            <button id="btnLogin"
-                                class="border-blue-900 px-3 border-b-2 border-t-2 border-l-2 border-r-2 rounded h-8 md:h-10 font-semibold text-blue-900 dark:text-blue-900">LOGIN</button>
-                        </div>
-
+                    <div class="w-3/4 mb-4">
+                        <label for="emailInput"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-900">Email
+                            Address</label>
+                        <input type="email" id="emailInput"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="john@email.com" required>
+                    </div>
+                    <div class="w-3/4 mb-6">
+                        <label for="passwordInput"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-900">Password</label>
+                        <input type="password" id="passwordInput"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="xxxxx" required>
+                    </div>
+                    <div
+                        class="mb-4 h-8 md:h-10 border-blue-900 border-b-2 border-t-2 border-l-2 border-r-2 rounded inline px-5 py-2">
+                        <button id="btnLogin" class="font-semibold text-blue-900 dark:text-blue-900">LOGIN</button>
                     </div>
                 </div>
             </div>
