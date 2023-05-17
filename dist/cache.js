@@ -59,7 +59,7 @@ function updateBalance(balance) {
     if (loginInfo == undefined) { return; }
     else {
         loginInfo.balance = balance;
-        for (const i = 0; i < profiles.length; i++) {
+        for (let i = 0; i < profiles.length; i++) {
             if (profiles[i].id == loginInfo.id) {
                 profiles[i].balance = balance;
                 break
