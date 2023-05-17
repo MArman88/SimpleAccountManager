@@ -53,7 +53,7 @@ function getProfile(email, password) {
 };
 
 
-let loginInfo = profiles[0];
+let loginInfo;
 
 function updateBalance(balance) {
     if (loginInfo == undefined) { return; }
